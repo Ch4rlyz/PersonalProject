@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    background-color: black;
+}
+
+main {
+    padding: 2rem;
+    background-color: beige;
+    width: 50vw; 
+    position: relative;
+    left:22vw;
+    top: 22vh;
+    border-radius: 10px;
+
+}
+
+.main-div {
+    position: relative;
+    width:fit-content;
+    left: 17vw;
+    background-color: rgb(240, 240, 150);
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid black;
+    border-style: dotted;
+}
+
+.div-title {
+    font-size: 2rem;
+    font-family: Fantasy;
+}
+
+.div-figure {
+    position: relative;
+    left: 12rem;
+
+}
+
+.figure-image {
+    width: 25rem;
+}
+
+.figure-figurecaption {
+    position: relative;
+    left: 5rem;
+    color: grey;
+}
+
+.div-text {
+    text-align: center;
+    font-size:1.2rem;
+    font-family:  monospace;
+}
+

@@ -1,0 +1,303 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.header-maindiv {
+    position: relative;
+    left: 3vw;
+    top: 1rem;
+    display: inline-block;
+}
+
+.div-figure {
+    display:inline-block;
+}
+
+.figure-youtube {
+    width: 3rem;
+}
+
+.header-title {
+    display:inline-block;
+    position: relative;
+    left: .2rem;
+    bottom: .2rem;
+    font-weight: bold;
+    font-size: 2.2rem;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.navigation-bar-content {
+    display: inline-block;
+    position: relative;
+    left: 30vh
+}
+
+.header-navigation {
+    display: inline-block;
+    position: relative;
+    left: 80vw;
+}
+
+.list-element {
+    display: inline-block;
+    font-size: 1.5rem;
+    padding:.5rem;
+    position: relative;
+    top: .5rem;
+}
+
+
+.list-element::before {
+    content: " | "
+}
+
+.list-element:hover {
+    color:rgb(195, 209, 209);
+}
+
+.aside {
+    padding: 2rem 7rem;
+    display:inline-block;
+    position: absolute;
+}
+
+
+.music-logotype-content {
+    border-radius: .5rem;
+    border: grey solid 2px;
+    display: inline-block;
+}
+
+.music-image {
+    width: 2rem;
+}
+
+.music-text {
+    display: inline-block;
+    font-size: 2rem;
+}
+
+
+
+.movie-logotype-content {
+    border-radius: .5rem;
+    border: grey solid 2px;
+    display: inline-block;
+}
+
+.movie-image {
+    width: 2rem;
+}
+
+.movie-text {
+    display: inline-block;
+    font-size: 2rem;
+}
+
+.games-logotype-content {
+    border-radius: .5rem;
+    border: grey solid 2px;
+    display: inline-block;
+}
+
+.games-image {
+    width: 2rem;
+}
+
+.games-text {
+    display: inline-block;
+    position: relative;
+    bottom: .3rem;
+    font-size: 2rem;
+}
+
+
+
+.firstvideo-content {
+    display: inline-block;
+    padding-left: 25rem; 
+}
+
+.firstvideo-image-content {
+    position: relative;
+}
+.firstvideo-image-content:hover {
+    opacity: .75
+}
+
+.firstvideo-image {
+    width: 40rem;
+}
+
+.firstvideo-information-content {
+    position: relative;
+    left:.5rem;
+    width:  40rem;
+    display:inline-block
+}
+
+.firstvideo-channel-content {
+    display: inline-block;
+}
+
+.firstvideo-channel-image {
+    border-radius: 50%;
+    border: grey solid 2px;
+    display: inline-block;
+    width: 4.5rem;
+}
+
+.firstvideo-title {
+    display: inline-block;
+    position: relative;
+    bottom: 1.4rem;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.firstvideo-author {
+    display:block;
+    font-size:1.5rem;
+    font-family: 'Roboto Thin 100';
+    color:grey;
+}
+
+.firstvideo-views {
+    display:inline-block;
+    font-size:1.5rem;
+    font-family: 'Roboto Thin 100';
+    color:grey;
+}
+
+.secondvideo-content {
+    display: inline-block;
+    padding-left: 25rem; 
+    width: fit-content
+}
+
+.secondvideo-image-content {
+    position: relative;
+}
+.secondvideo-image-content:hover {
+    opacity: .75
+}
+
+.secondvideo-image {
+    width: 40rem;
+}
+
+.secondvideo-information-content {
+    display:inline-block;
+    width: 40rem;
+}
+
+.secondvideo-channel-content {
+    display: inline-block;
+}
+
+.secondvideo-channel-image {
+    border-radius: 50%;
+    border: grey solid 2px;
+    display: inline-block;
+    width: 4.5rem;
+}
+
+.secondvideo-title {
+    display: inline-block;
+    width:35rem;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.secondvideo-author {
+    padding-left: 4.5rem;
+    display:inline-block;
+    font-size:1.5rem;
+    font-family: 'Roboto Thin 100';
+    color:grey;
+}
+
+.secondvideo-views {
+    display:inline-block;
+    padding-left:2rem;
+    font-size:1.5rem;
+    font-family: 'Roboto Thin 100';
+    color:grey;
+}
+
+
+
+
+
+.thirdvideo-content {
+    display: inline-block;
+    padding-left: 25rem; 
+    width: fit-content
+}
+
+.thirdvideo-image-content {
+    position: relative;
+}
+.thirdvideo-image-content:hover {
+    opacity: .75
+}
+
+.thirdvideo-image {
+    width: 40rem;
+}
+
+.thirdvideo-information-content {
+    display:inline-block;
+    width: 40rem;
+}
+
+.thirdvideo-channel-content {
+    display: inline-block;
+}
+
+.thirdvideo-channel-image {
+    border-radius: 50%;
+    border: grey solid 2px;
+    display: inline-block;
+    width: 4.5rem;
+}
+
+.thirdvideo-title {
+    display: inline-block;
+    width:35rem;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.thirdvideo-author {
+    padding-left: 4.5rem;
+    display:inline-block;
+    font-size:1.5rem;
+    font-family: 'Roboto Thin 100';
+    color:grey;
+}
+
+.thirdvideo-views {
+    display:inline-block;
+    padding-left:2rem;
+    font-size:1.5rem;
+    font-family: 'Roboto Thin 100';
+    color:grey;
+}
+
+
+
+
+
+
+
+
+    
